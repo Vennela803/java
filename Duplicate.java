@@ -4,7 +4,7 @@ public static void main(String [] args)
 {
    int a[]=new int[]{10,15,30,15,10,1,2,3,10,30,1,2,6,7};
   
-   int x,y,count;
+   int x,y,counting;
   for(x=0;x<a.length;x++)
     {
         count=0;
@@ -12,12 +12,12 @@ public static void main(String [] args)
       {  
        if(a[y]==a[x])
         {
-          count++;
+          counting++;
          }
        }
      
          if(count==0)
-  System.out.println(a[x]+" "+   count);
+  System.out.println(a[x]+" "+   counting);
 }
 }
 }      
